@@ -1,0 +1,21 @@
+.menu {
+    padding:0;
+    list-style: none;
+}
+.menu li{
+    padding:6px;
+}
+.menu li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #77AEDB;
+    content: "\2606";
+    transition-duration: 0.5s;
+}
+.menu li:hover:before {
+    color: #337AB7;
+    content: "\2605";
+}
+h2 {
+	margin-bottom: 0px
+}
